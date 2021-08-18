@@ -5,12 +5,12 @@ function createMenu() {
     const div = document.createElement("div");
     div.classList.add("menu");
 
-    div.appendChild(createMenuCard("Capuccino", "5$", "Cappuccino is one part espresso mixed with one part steamed milk, then topped with one part foamed milk","./images/cat-coffee.jpeg"));
-    div.appendChild(createMenuCard("Cat Donut", "6$", "Our Donuts are made with flour, milk, yeast, and sugar, and then they are fried and dredged in sugar, topped by our exclusive créme and our founder's hair extract","./images/catDonut.jpeg"));
-    div.appendChild(createMenuCard("Cat Cake", "20$", "Our black cat cake will purify you from all your sins and curses","./images/catCake.jpeg"));
-    div.appendChild(createMenuCard("Catnip", "40$", "The catnip we harvested freshly from meowzieland - where out founder's led the rebellion 80 years ago, and is better than anything on the market","./images/catnip.jpeg"));
-    div.appendChild(createMenuCard("Cat Cookies", "3$", "Freshly baked cookies - the original recipe passed down from our founders", "./images/catCookie.jpeg"));
-    div.appendChild(createMenuCard("Cat Macarons", "4$", "Freshly baked macarons - the original recipe our founders used to conquer humans", "./images/catMacarons.jpeg"))
+    div.appendChild(createMenuCard("Capuccino", "5$", "Cappuccino is one part espresso mixed with one part steamed milk, then topped with one part foamed milk","../dist/images/cat-coffee.jpeg"));
+    div.appendChild(createMenuCard("Cat Donut", "6$", "Our Donuts are made with flour, milk, yeast, and sugar, and then they are fried and dredged in sugar, topped by our exclusive créme and our founder's hair extract","../dist/images/catDonut.jpeg"));
+    div.appendChild(createMenuCard("Cat Cake", "20$", "Our black cat cake will purify you from all your sins and curses","../dist/images/catCake.jpeg"));
+    div.appendChild(createMenuCard("Catnip", "40$", "The catnip we harvested freshly from meowzieland - where out founder's led the rebellion 80 years ago, and is better than anything on the market","../dist/images/catnip.jpeg"));
+    div.appendChild(createMenuCard("Cat Cookies", "3$", "Freshly baked cookies - the original recipe passed down from our founders", "../dist/images/catCookie.jpeg"));
+    div.appendChild(createMenuCard("Cat Macarons", "4$", "Freshly baked macarons - the original recipe our founders used to conquer humans", "../dist/images/catMacarons.jpeg"))
 
     return div;
 }
