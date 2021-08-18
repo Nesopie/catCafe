@@ -50,7 +50,7 @@ function addMoji() {
     const imag = document.createElement("img");
     imag.classList.add("imaji");
 
-    imag.src = '../dist/images/catmoji.png';
+    imag.src = 'images/catmoji.png';
     emoji.appendChild(imag);
     return emoji;
 }

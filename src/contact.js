@@ -8,7 +8,7 @@ function createContact() {
                     "You can visit our cafe - as shown in the map below, for more details\n\n"
     const map = document.createElement("img");
     map.classList.add("map");
-    map.src = "../dist/images/catMap.png";
+    map.src = "images/catMap.png";
 
     div.appendChild(map);
     return div;
